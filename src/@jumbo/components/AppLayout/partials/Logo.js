@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import CmtImage from '../../../../@coremat/CmtImage';
 
 const Logo = ({ color, ...props }) => {
-  const logoUrl = color === 'white' ? '/images/logo-white.png' : '/images/logo.png';
+  const logoUrl = color === 'white' ? '/images/logo-white.png' : '/images/logo.png' ;
   const logoSymbolUrl = color === 'white' ? '/images/logo-white-symbol.png' : '/images/logo-symbol.png';
 
   return (

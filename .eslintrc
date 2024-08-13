@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": [
+    "import",
+    "prettier"
+  ],
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "jsx": "react",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "requireConfigFile": false
+},
+   "rules": {
+    "react/jsx-filename-extension": "off",
+    "prettier/prettier": 0,
+    "no-console": "off",
+    "no-eval": "off",
+    "import/first": "off",
+    "no-unused-vars": [
+      "warn",
+      {
+        "varsIgnorePattern": "React"
+      }
+    ]
+  } 
+
+  
+}  

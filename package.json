@@ -1,0 +1,153 @@
+{
+  "name": "etes-app",
+  "version": "0.1.0",
+  "engines": {
+    "node": "20.16.0",
+    "npm": "10.8.2",
+    "yarn": "1.x"
+  },
+  "private": true,
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.9.34",
+    "@date-io/date-fns": "^3.0.0",
+    "@date-io/moment": "^3.0.0",
+    "@material-ui/core": "^4.12.0",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.59",
+    "@material-ui/pickers": "^3.3.10",
+    "@material-ui/styles": "^4.11.4",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "^1.7.3",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "caniuse-lite": "^1.0.30001462",
+    "chart.js": "^4.4.3",
+    "clipboard-copy": "^4.0.1",
+    "clsx": "^2.1.1",
+    "connected-react-router": "^6.8.0",
+    "cross-fetch": "^4.0.0",
+    "draft-js": "^0.11.6",
+    "draftjs-to-html": "^0.9.1",
+    "emoji-picker-react": "^4.11.1",
+    "firebase": "^10.12.5",
+    "history": "^4.10.1",
+    "jss": "^10.2.0",
+    "jss-rtl": "^0.3.0",
+    "lodash": "^4.17.20",
+    "material-table": "^1.63.0",
+    "material-ui-popup-state": "^5.1.2",
+    "moment": "^2.27.0",
+    "notistack": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "prismjs": "^1.20.0",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.1",
+    "react": "^18.3.1",
+    "react-app-polyfill": "^3.0.0",
+    "react-big-calendar": "^1.13.2",
+    "react-bottom-scroll-listener": "^5.1.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-ckeditor-component": "^1.1.0",
+    "react-color": "^2.18.1",
+    "react-countup": "^6.5.3",
+    "react-csv": "^2.2.2",
+    "react-d3-speedometer": "^2.2.1",
+    "react-dom": "^18.3.1",
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-draggable": "^4.4.3",
+    "react-dropzone": "^14.2.3",
+    "react-google-maps": "^7.3.0",
+    "react-intl": "^6.6.8",
+    "react-jvectormap": "^0.0.15",
+    "react-notifications": "^1.6.0",
+    "react-number-format": "^5.4.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "react-simple-maps": "^1.0.0",
+    "react-slick": "^0.30.2",
+    "react-sortable-hoc": "^2.0.0",
+    "react-spring": "^9.7.4",
+    "react-swipeable-views": "^0.14.0",
+    "react-swipeable-views-utils": "^0.14.0",
+    "react-text-mask": "^5.4.3",
+    "react-trello": "^2.2.11",
+    "react-virtualized": "^9.21.2",
+    "react-window": "^1.8.5",
+    "reactour": "^1.18.0",
+    "recharts": "^2.12.7",
+    "recompose": "^0.17.0",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.12",
+    "sweetalert2": "^11.6.13",
+    "sweetalert2-react-content": "^5.0.7",
+    "typescript": "^5.5.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css)\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 11",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.1",
+    "@babel/preset-react": "^7.24.7",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "axios-mock-adapter": "^2.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "husky": "^9.1.4",
+    "jest": "24.7.1",
+    "lint-staged": "^15.2.8",
+    "prettier": "^3.3.3",
+    "prettier-miscellaneous": "^1.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.+(js|jsx)": [
+      "eslint --fix"
+    ],
+    "*.+(js|jsx|json|css|md)": [
+      "prettier --write"
+    ]
+  }
+}

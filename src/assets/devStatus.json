@@ -1,0 +1,56 @@
+[
+  {
+    "taskId": 1,
+    "taskName": "Maestro Usuarios",
+    "startDate": "16-04-2022",
+    "endDate": null,
+    "priority": "High",
+    "status": "On Going",
+    "parentId": 0
+  },
+  {
+    "taskId": 2,
+    "taskName": "Lista de Usuarios",
+    "startDate": "16-04-2022",
+    "endDate": "16-04-2022",
+    "priority": "High",
+    "status": "Completed",
+    "parentId": 1
+  },
+  {
+    "taskId": 3,
+    "taskName": "Correcciones multilenguaje ESP/ENG módulo usuarios",
+    "startDate": "17-04-2022",
+    "endDate": "17-04-2022",
+    "priority": "Medium",
+    "status": "Completed",
+    "parentId": 1
+  },
+  {
+    "taskId": 4,
+    "taskName": "Integración API usuarios",
+    "startDate": "17-04-2022",
+    "endDate": "17-04-2022",
+    "priority": "High",
+    "status": "Completed",
+    "parentId": 0
+  },
+  {
+    "taskId": 5,
+    "taskName": "Implementa eliminación de usuarios",
+    "startDate": "17-04-2022",
+    "endDate": "18-04-2022",
+    "priority": "High",
+    "status": "Completed",
+    "parentId": 0
+  },
+  {
+    "taskId": 4,
+    "taskName": "Integración API usuarios",
+    "startDate": "17-04-2022",
+    "endDate": "17-04-2022",
+    "priority": "High",
+    "status": "Completed",
+    "parentId": 0
+  }
+]

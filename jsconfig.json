@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src/",
+    "paths": {
+      "@jumbo": ["src/@jumbo/*"],
+      "@coremat": ["src/@coremat/*"],
+      "redux": ["src/redux/*"],
+      "components": ["src/components/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/node_modules", "dist"]
+}
